@@ -1,1 +1,1 @@
-# hangman---js
+# hangman-js-game
