@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size:16px;
+    font-family: 'Fahkwang', sans-serif;
+}
+
+body {
+    background: #6AC0FA;
+}
+#hangman {
+    width: 800px;
+    margin: 30px auto;
+}
+
+#title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 200;
+    background: white;
+    /* color: white; */
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px 2px rgba(0,0,0,0.19);
+}
+
+#word {
+    letter-spacing: 5px;
+    font-size: 2rem;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.29);
+}
+
+#letters {
+    padding: 20px 50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ button {
+    width: 50px;
+    font-size: 1.4rem;
+    font-family: 'Fahkwang', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+    margin: 7px;
+    
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.29);
+}
+
+#output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 24vh;
+    margin: 10px 0;
+}
+
+#output .step {
+   width: 20%;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}
+
+#output img {
+    width:150px;
+    padding: 5px 0;
+}
+
+#category {
+    text-align:center;
+    padding: 30px 0px;
+    text-transform:uppercase;
+}
+
+.active{
+    background: #61DA6E; 
+    box-shadow: 0px 0px 4px 0px #000000;
+} 
+
+.inactive{
+    background: #D9686D;
+    box-shadow: 0px 0px 4px 0px #000000;
+} 
