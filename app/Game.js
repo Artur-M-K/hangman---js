@@ -97,6 +97,7 @@ class Game {
   winning() {
     this.wordWrapper.innerHTML = "YOU WON THE GAME. CONGRATULATION!!!";
     this.lettersWrapper.innerHTML = "";
+    document.getElementById("image").src = `images/1.png`;
   }
 
   loosing() {
